@@ -2,7 +2,7 @@ import { SignUp } from "@clerk/nextjs";
 
 const SignUpPage = () => {
   return (
-    <div className="flex min-h-screen item-center justify-center bg-background">
+    <div className="flex min-h-screen items-center justify-center bg-background">
       <SignUp
         appearance={{
           elements: {
